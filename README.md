@@ -1,11 +1,11 @@
-# 📊 Marketing Attribution with Causal Inference
+# Marketing Attribution with Causal Inference
 
 **Beyond Last-Click: Using Causal Inference to Measure True Marketing Impact**
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 🎯 Business Problem
+##  Business Problem
 
 Companies waste billions on marketing channels that don't actually drive incremental revenue. Traditional attribution methods (last-click, multi-touch) are **correlational, not causal**. They can't answer the fundamental question:
 
@@ -15,7 +15,7 @@ This project demonstrates how to measure **true causal effects** using advanced 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Causal Inference Methods**: Propensity Score Matching, Difference-in-Differences, Uplift Modeling
 - **Synthetic Data Generation**: 100K realistic customer journeys with known ground truth effects
@@ -25,7 +25,7 @@ This project demonstrates how to measure **true causal effects** using advanced 
 
 ---
 
-## 📊 Key Findings
+##  Key Findings
 
 ### Traditional Attribution vs. Causal Analysis
 
@@ -50,7 +50,7 @@ Organic           5%           20%              +15% ⭐
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Core:**
 - Python 3.9+
@@ -68,7 +68,7 @@ Organic           5%           20%              +15% ⭐
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone Repository
 
@@ -114,7 +114,7 @@ Dashboard opens at `http://localhost:8501`
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 marketing-attribution-causal-inference/
@@ -146,7 +146,7 @@ marketing-attribution-causal-inference/
 
 ---
 
-## 🔬 Causal Inference Methods
+##  Causal Inference Methods
 
 ### 1. Propensity Score Matching (PSM)
 
@@ -207,7 +207,7 @@ Expected lift: +$42K/month from better targeting.
 
 ---
 
-## 📈 Dashboard Features
+##  Dashboard Features
 
 ### Page 1: Overview
 - Total users, conversions, revenue metrics
@@ -235,7 +235,7 @@ Expected lift: +$42K/month from better targeting.
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 ### 1. Selection Bias is Real
 
@@ -268,7 +268,7 @@ Each additional dollar has lower impact.
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ```bash
 # Run unit tests
@@ -280,48 +280,16 @@ pytest tests/test_causal_methods.py::test_propensity_score_matching -v
 
 ---
 
-## 📚 Learn More
-
 ### Recommended Reading
-
-**Books:**
-- "Causal Inference: The Mixtape" by Scott Cunningham (free online)
-- "The Effect" by Nick Huntington-Klein
-- "Mostly Harmless Econometrics" by Angrist & Pischke
 
 **Papers:**
 - Rosenbaum & Rubin (1983) - "The Central Role of the Propensity Score"
 - Abadie et al. (2010) - "Synthetic Control Methods"
 - Wager & Athey (2018) - "Estimation of Heterogeneous Treatment Effects"
 
-**Online Courses:**
-- Brady Neal's Causal Inference Course (YouTube)
-- Microsoft DoWhy Tutorials
-- Uber CausalML Documentation
-
 ---
 
-## 🎓 Interview Talking Points
-
-### "Why causal inference over correlation?"
-
-> "Marketing attribution is fundamentally a causal question: 'What would have happened WITHOUT this channel?' Traditional methods just count touchpoints. I wanted to show I can measure true incremental impact using quasi-experimental methods like PSM and DiD."
-
-### "When would you use PSM vs A/B testing?"
-
-> "A/B tests are gold standard but expensive and slow. You can't test everything. PSM lets you estimate causal effects from observational data when randomized experiments aren't feasible. The trade-off is stronger assumptions—you assume no unobserved confounders."
-
-### "What are the limitations?"
-
-> "All causal inference methods require untestable assumptions. PSM assumes no unobserved confounding. DiD assumes parallel trends. I validate assumptions where possible (balance tests, placebo tests) and run sensitivity analyses. The goal is to get closer to truth than naive correlation, not claim perfect causality."
-
-### "How would you apply this at [Company]?"
-
-> "At Parafin, measure if embedded finance actually increases platform GMV. At Atticus, optimize marketing spend by identifying which channels drive quality leads, not just volume. The framework transfers to any attribution problem where you need to separate correlation from causation."
-
----
-
-## 🚧 Future Enhancements
+##  Future Enhancements
 
 - [ ] Bayesian causal inference methods
 - [ ] Deep learning for CATE estimation
@@ -333,62 +301,20 @@ pytest tests/test_causal_methods.py::test_propensity_score_matching -v
 
 ---
 
-## 👤 Author
+##  Author
 
 **Michael Gurule**
 - GitHub: [@michael-gurule](https://github.com/michael-gurule)
-- LinkedIn: [michael-gurule](https://linkedin.com/in/michael-gurule)
+- LinkedIn: [michael-gurule](https://linkedin.com/in/michaeljgurule)
 - Email: michaelgurule1164@gmail.com
 - Portfolio: [Fraud Detection Project](https://github.com/michael-gurule/fraud-detection-system)
 
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - DoWhy (Microsoft) for causal inference library
 - CausalML (Uber) for uplift modeling
 - Streamlit for dashboard framework
-- Academic researchers advancing causal inference methods
 
----
-
-**⭐ If you found this project helpful, please consider giving it a star!**
-
----
-
-## 📊 Project Metrics
-
-- **Lines of Code:** ~2,000
-- **Data Generated:** 100K customer journeys
-- **Analysis Methods:** 3 causal inference techniques
-- **Dashboard Pages:** 4 interactive pages
-- **Time to Complete:** 2-3 weeks
-- **Technical Depth:** Advanced (causal inference)
-
----
-
-## 🎯 What Makes This Different
-
-**Most Portfolio Projects:**
-- Kaggle competitions (supervised learning)
-- Prediction-focused (accuracy metrics)
-- Single method (one algorithm)
-
-**This Project:**
-- Original causal research question
-- Business optimization (ROI, budget allocation)
-- Multiple methods (PSM, DiD, Uplift)
-- Executive-ready deliverables
-- Demonstrates rare skills (causal inference)
-
-**Result:** Shows advanced analytical thinking that 95% of data science candidates don't have.
-
----
-
-*Built to demonstrate advanced analytics skills for senior data science roles. Showcases ability to bridge statistical rigor with business impact.*
