@@ -70,48 +70,34 @@ Organic           5%           20%              +15% ⭐
 
 ##  Quick Start
 
-### 1. Clone Repository
-
+### 1. Setup
 ```bash
-git clone https://github.com/yourusername/marketing-attribution-causal-inference.git
+
+# Clone Repository
+git clone https://github.com/michael-gurule/marketing-attribution-causal-inference.git
 cd marketing-attribution-causal-inference
-```
 
-### 2. Set Up Environment
-
-```bash
 # Create virtual environment
 python3 -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-```
 
-### 3. Generate Data
-
-```bash
+# Generate Data
 python data/generate_data.py
-```
 
-Output: 100K customer journeys (~25MB)
+# Output: 100K customer journeys (~25MB)
 
-### 4. Run Analysis
-
-```bash
+# Run Analysis
 # Propensity Score Matching
 cd notebooks
 python run_psm_analysis.py
-```
 
-### 5. Launch Dashboard
-
-```bash
+# Launch Dashboard
 streamlit run dashboard/app.py
+#Dashboard opens at `http://localhost:8501`
 ```
-
-Dashboard opens at `http://localhost:8501`
-
 ---
 
 ##  Project Structure
@@ -209,29 +195,29 @@ Expected lift: +$42K/month from better targeting.
 
 ##  Dashboard Features
 
-### Page 1: Overview
-- Total users, conversions, revenue metrics
-- Segment breakdown (New, Returning, VIP)
-- Channel touchpoint distribution
-- Annual spend by channel
+   ### Overview
+    - Total users, conversions, revenue metrics
+    - Segment breakdown (New, Returning, VIP)
+    - Channel touchpoint distribution
+    - Annual spend by channel
 
-### Page 2: Channel Analysis
-- Exposure rates and conversion by channel
-- Naive vs causal lift comparison
-- Spend trends over time
-- Performance metrics
+  ### Channel Analysis
+    - Exposure rates and conversion by channel
+    - Naive vs causal lift comparison
+    - Spend trends over time
+    - Performance metrics
 
-### Page 3: Causal Effects
-- Interactive PSM analysis
-- Select any channel to analyze
-- Statistical significance testing
-- Detailed interpretation
+   ### Causal Effects
+    - Interactive PSM analysis
+    - Select any channel to analyze
+    - Statistical significance testing
+    - Detailed interpretation
 
-### Page 4: Budget Optimizer
-- Adjust channel budgets with sliders
-- See expected impact on revenue
-- ROI calculations by channel
-- Optimization recommendations
+   ### Budget Optimizer
+    - Adjust channel budgets with sliders
+    - See expected impact on revenue
+    - ROI calculations by channel
+    - Optimization recommendations
 
 ---
 
@@ -278,14 +264,6 @@ pytest tests/ -v
 pytest tests/test_causal_methods.py::test_propensity_score_matching -v
 ```
 
----
-
-### Recommended Reading
-
-**Papers:**
-- Rosenbaum & Rubin (1983) - "The Central Role of the Propensity Score"
-- Abadie et al. (2010) - "Synthetic Control Methods"
-- Wager & Athey (2018) - "Estimation of Heterogeneous Treatment Effects"
 
 ---
 
@@ -312,9 +290,15 @@ pytest tests/test_causal_methods.py::test_propensity_score_matching -v
 
 ---
 
-##  Acknowledgments
+###  Acknowledgments
 
 - DoWhy (Microsoft) for causal inference library
 - CausalML (Uber) for uplift modeling
 - Streamlit for dashboard framework
 
+### Recommended Reading
+
+**Papers:**
+- Rosenbaum & Rubin (1983) - "The Central Role of the Propensity Score"
+- Abadie et al. (2010) - "Synthetic Control Methods"
+- Wager & Athey (2018) - "Estimation of Heterogeneous Treatment Effects"
