@@ -1,0 +1,31 @@
+<svg width="180" height="60" viewBox="0 0 180 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Icon -->
+    <g transform="translate(5, 5)">
+        <!-- Outer ring -->
+        <circle cx="25" cy="25" r="22" stroke="url(#full-gradient)" stroke-width="1.5" fill="none"/>
+        <!-- Inner connecting paths (customer journey) -->
+        <circle cx="12" cy="17" r="2.5" fill="url(#full-gradient)"/>
+        <circle cx="22" cy="8" r="2.5" fill="url(#full-gradient)"/>
+        <circle cx="38" cy="14" r="2.5" fill="url(#full-gradient)"/>
+        <circle cx="40" cy="30" r="2.5" fill="url(#full-gradient)"/>
+        <circle cx="25" cy="42" r="2.5" fill="url(#full-gradient)"/>
+        <circle cx="8" cy="34" r="2.5" fill="url(#full-gradient)"/>
+        <!-- Connection lines -->
+        <polyline points="12,17 22,8 38,14 40,30 25,42 8,34 12,17" stroke="url(#full-gradient)" stroke-width="1.5" fill="none" stroke-linejoin="round"/>
+        <!-- Center target/conversion point -->
+        <circle cx="25" cy="25" r="5" stroke="url(#full-gradient)" stroke-width="1.5" fill="none"/>
+        <circle cx="25" cy="25" r="2" fill="url(#full-gradient)"/>
+        <!-- Arrows pointing to center -->
+        <line x1="12" y1="17" x2="20" y2="21" stroke="url(#full-gradient)" stroke-width="1" stroke-dasharray="2,1"/>
+        <line x1="38" y1="14" x2="30" y2="21" stroke="url(#full-gradient)" stroke-width="1" stroke-dasharray="2,1"/>
+        <line x1="25" y1="42" x2="25" y2="30" stroke="url(#full-gradient)" stroke-width="1" stroke-dasharray="2,1"/>
+    </g>
+    <!-- Text -->
+    <text x="62" y="38" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="url(#full-gradient)" letter-spacing="2">CIPHER</text>
+    <defs>
+        <linearGradient id="full-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0284c7;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+</svg>
