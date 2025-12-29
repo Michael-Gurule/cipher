@@ -1,6 +1,17 @@
-# Marketing Attribution with Causal Inference
 
-**Beyond Last-Click: Using Causal Inference to Measure True Marketing Impact**
+<p align="center"> 
+  <img src="https://github.com/user-attachments/assets/53ad45a4-5982-40ec-9e11-ea0c3f51f738">
+<p align="center">
+  <strong>Marketing Attribution with Causal Inference</strong><br>
+  Optimizing your marketing strategy with 
+</p>  
+<br>
+
+<p align="center">
+  **Beyond Last-Click: Using Causal Inference to Measure True Marketing Impact**
+</p>
+<br>
+
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
@@ -278,15 +289,15 @@ pytest tests/test_causal_methods.py::test_propensity_score_matching -v
 - [ ] Model deployment (FastAPI endpoint)
 
 ---
+## Contributing
 
-##  Author
+This is a portfolio project. For questions or collaboration:
 
+> Author
 **Michael Gurule**
-- GitHub: [@michael-gurule](https://github.com/michael-gurule)
-- LinkedIn: [michael-gurule](https://linkedin.com/in/michaeljgurule)
-- Email: michaelgurule1164@gmail.com
-- Portfolio: [Fraud Detection Project](https://github.com/michael-gurule/fraud-detection-system)
-
+- [![Email Me](https://img.shields.io/badge/EMAIL-8A2BE2)](michaelgurule1164@gmail.com)
+- [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](www.linkedin.com/in/michael-j-gurule-447aa2134)
+- [![Medium](https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white)](https://medium.com/@michaelgurule1164)
 
 ---
 
@@ -296,9 +307,19 @@ pytest tests/test_causal_methods.py::test_propensity_score_matching -v
 - CausalML (Uber) for uplift modeling
 - Streamlit for dashboard framework
 
+---
+
 ### Recommended Reading
 
 **Papers:**
 - Rosenbaum & Rubin (1983) - "The Central Role of the Propensity Score"
 - Abadie et al. (2010) - "Synthetic Control Methods"
 - Wager & Athey (2018) - "Estimation of Heterogeneous Treatment Effects"
+
+---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/eff20308-4133-4a08-89d0-959a674dff7a" alt="CIPHER" width="40">
+  <br>
+  <sub>Built by Michael Gurule</sub>
+</p>
