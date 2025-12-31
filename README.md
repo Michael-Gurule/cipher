@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  **Beyond Last-Click: Using Causal Inference to Measure True Marketing Impact**
+  </strong>Beyond Last-Click: Using Causal Inference to Measure True Marketing Impact</strong></p>
 </p>
 <br>
 
@@ -319,7 +319,10 @@ This is a portfolio project. For questions or collaboration:
 ---
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/eff20308-4133-4a08-89d0-959a674dff7a" alt="CIPHER" width="40">
-  <br>
-  <sub>Built by Michael Gurule</sub>
+<sub>BUILT BY</sub> 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ecb66c61-85c5-4d24-aaa3-99ddf2cd33cf" alt="MICHAEL GURULE">
+<p align="center">
+<b>Data Scientist | Machine Learning Engineer</b>
 </p>
+
